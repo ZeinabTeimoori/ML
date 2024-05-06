@@ -12,6 +12,6 @@ _python -m ipykernel install --user --name <ENV_NAME> --display-name "Whatever"_
 
 Then open jupyter.
 
-For gpu activation on MacOSX-arm64 use "tf_gpu.yml" file.
+For gpu/mps activation on MacOSX-arm64 use "tf_gpu.yml" or "torch_gpu.yml" files.
 
-You can test the gpu env by running "gpu_test.ipynb" file.
+You can test the gpu/mps env by running "gpu_test.ipynb" file in the correct targeted env.
